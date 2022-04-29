@@ -1,0 +1,18 @@
+<!ELEMENT peliculas (pelicula)+>
+<!ELEMENT pelicula (titulo,duracion, director+, actor+, guionista*, productora*, sinopsis?,recaudacion?)>
+  <!ATTLIST pelicula 
+                  tipo (drama | comedia | aventura | sci-fi | western | misterio | horror | romance | documental) #IMPLIED
+                  clasificacion ( NO7 | NO12 | NO16 | NO18 | X | TP ) "TP"
+                  puntuacion (1 | 2 | 3 | 4 | 5)  #REQUIRED
+                  anho CDATA #IMPLIED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT actor (#PCDATA)>
+<!ELEMENT guionista (#PCDATA)>
+<!ELEMENT productora (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ELEMENT recaudacion EMPTY>
+    <!ATTLIST recaudacion
+                      euros CDATA #REQUIRED>
+

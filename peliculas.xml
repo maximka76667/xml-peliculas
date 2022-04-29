@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE peliculas SYSTEM "peliculas.dtd">
+<peliculas>
+    <pelicula puntuacion="4">
+        <titulo>The Batman</titulo>
+        <duracion>2h 56min</duracion>
+        <director>Matt Reeves</director>
+        <actor>Robert Pattinson</actor>
+    </pelicula>
+    
+    <pelicula puntuacion="4" anho="2022" clasificacion="NO12" tipo="drama">
+        <titulo>The Batman</titulo>
+        <duracion>2h 56min</duracion>
+        <director>Matt Reeves</director>
+        <actor>Robert Pattinson</actor>
+        <actor>Zoë Kravitz</actor>
+        <actor>Jeffrey Wright</actor>
+        <guionista>Matt Reeves</guionista>
+        <sinopsis>When the Riddler, a sadistic serial killer, begins murdering key political figures
+            in Gotham, Batman is forced to investigate the city's hidden corruption and question his
+            family's involvement.</sinopsis>
+        <recaudacion euros="200 000 000" />
+    </pelicula>
+</peliculas>
